@@ -1,0 +1,102 @@
+body{
+  margin:0 0 0 0;
+  padding: 0;
+
+    background-color: white;
+}
+header{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+top: 0;
+  margin: 0;
+  padding: 0;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 5.5vw;
+  font-size: 1.3vw;
+  font-style: italic;
+  font-family:fantasy;
+
+  width: 100%;
+  height: 6vw;
+
+
+}
+#test-area{
+
+  margin-left: 30vw;
+  width: 39vw;
+
+  min-height:17vw;
+  font-size: 1vw;
+  font-family: fantasy;
+  font-weight: bold;
+
+  border: 0.5vw solid black;
+  border-radius: 0.5vw;
+}
+.intro{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  vertical-align: middle;
+line-height: 1.6vw;
+background-color: orange;
+text-align:center;
+font-size: 1.3vw;
+word-spacing: 0.2vw;
+font-family:sans-serif;
+height: 6vw;
+font-weight: bold;
+font-style: oblique;
+}
+#origin-text{
+margin:1.5vw;
+border-radius: 5px;
+  display: flex;
+   justify-content:center;
+   align-items: center;
+   width: 39vw;
+   font-size: 1.2vw;
+   font-weight:bold;
+   font-family: sans-serif;
+
+background-color:rgba(220,220,220,0.5);
+margin-left: auto;
+margin-right: auto;
+
+}
+.meta{
+  margin-left: 30vw;
+  margin-top: 2vw;
+  display: flex;
+  justify-content:space-around;
+
+
+  flex-wrap: wrap;
+  width: 39vw;
+}
+.timer{
+  font-size: 4vw;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#reset{
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: orange;
+  min-width: 10vw;
+  min-height: 3vw;
+
+  background-color: white;
+  border: 0.4vw solid orange;
+border-radius: 0.15vw;
+}
+#reset:hover{  background-color: orange;
+  color: white;
+
+}
